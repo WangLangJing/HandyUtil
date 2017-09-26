@@ -8,7 +8,7 @@ namespace HandyUtil
     public static class  DateTimeExtension
     {
         /// <summary>
-        /// 表示当前日期是否是周六或者周日
+        ///HandyUtil-Extension:表示当前日期是否是周六或者周日
         /// </summary>
         public static Boolean IsHoliday(this DateTime dateTime)
         {
