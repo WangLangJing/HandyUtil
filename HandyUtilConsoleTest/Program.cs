@@ -5,19 +5,20 @@ using System.Text;
 using System.Diagnostics;
 using HandyUtil;
 using System.Text.RegularExpressions;
-
+using HandyUtil.NetWork;
 namespace HandyUtilConsoleTest
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Int32 a = 2;
-            Object b = a;
-            Object c = b;
-            c = 3;
-            Console.WriteLine(c.ToString());
-            Console.WriteLine(b.ToString());
+            Console.WriteLine(NetWork.GetHostString());
+            //Int32 a = 2;
+            //Object b = a;
+            //Object c = b;
+            //c = 3;
+            //Console.WriteLine(c.ToString());
+            //Console.WriteLine(b.ToString());
             //String idCardNum = "642223199410200038";
             //String idCardNum1 = "64222319941020003x";
             //String phoneNum = "0954-3015535";
