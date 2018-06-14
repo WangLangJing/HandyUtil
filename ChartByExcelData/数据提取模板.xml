@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<excelDataExtractTemplate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <excelGraphCategories>
+    <excelGraphCategory>  <!--分类数据点索引集合-->
+      <namePosition X="4" Y="10" />   <!--图表标题所在单元格-->
+      <xdataPosition>    <!--X轴数据所在的单元格集合-->
+        <Point X="5" Y="10" />
+        <Point X="5" Y="11" />
+        <Point X="5" Y="12" />
+        <Point X="5" Y="13" />
+        <Point X="5" Y="14" />
+        <Point X="5" Y="15" />
+        <Point X="5" Y="16" />
+        <Point X="5" Y="17" />
+      </xdataPosition>
+      <ydataPosition>     <!--Y轴数据所在的单元格集合-->
+        <Point X="7" Y="10" />
+        <Point X="7" Y="11" />
+        <Point X="7" Y="12" />
+        <Point X="7" Y="13" />
+        <Point X="7" Y="14" />
+        <Point X="7" Y="15" />
+        <Point X="7" Y="16" />
+        <Point X="7" Y="17" />
+      </ydataPosition>
+    </excelGraphCategory>
+    <excelGraphCategory>
+      <namePosition X="4" Y="18" />
+      <xdataPosition>
+        <Point X="5" Y="18" />
+        <Point X="5" Y="19" />
+        <Point X="5" Y="20" />
+        <Point X="5" Y="21" />
+      </xdataPosition>
+      <ydataPosition>
+        <Point X="7" Y="18" />
+        <Point X="7" Y="19" />
+        <Point X="7" Y="20" />
+        <Point X="7" Y="21" />
+      </ydataPosition>
+    </excelGraphCategory>
+    <excelGraphCategory>
+      <namePosition X="4" Y="22" />
+      <xdataPosition>
+        <Point X="5" Y="22" />
+        <Point X="5" Y="23" />
+        <Point X="5" Y="24" />
+        <Point X="5" Y="25" />
+        <Point X="5" Y="26" />
+        <Point X="5" Y="27" />
+        <Point X="5" Y="28" />
+      </xdataPosition>
+      <ydataPosition>
+        <Point X="7" Y="22" />
+        <Point X="7" Y="23" />
+        <Point X="7" Y="24" />
+        <Point X="7" Y="27" />
+        <Point X="7" Y="26" />
+        <Point X="7" Y="27" />
+        <Point X="7" Y="28" />
+      </ydataPosition>
+    </excelGraphCategory>
+    <excelGraphCategory>
+      <namePosition X="4" Y="29" />
+      <xdataPosition>
+        <Point X="5" Y="29" />
+        <Point X="5" Y="30" />
+        <Point X="5" Y="31" />
+        <Point X="5" Y="32" />
+        <Point X="5" Y="33" />
+        <Point X="5" Y="34" />
+      </xdataPosition>
+      <ydataPosition>
+        <Point X="7" Y="29" />
+        <Point X="7" Y="30" />
+        <Point X="7" Y="31" />
+        <Point X="7" Y="32" />
+        <Point X="7" Y="33" />
+        <Point X="7" Y="34" />
+      </ydataPosition>
+    </excelGraphCategory>
+  </excelGraphCategories>
+  <sheetNum>1</sheetNum>    <!--操作的工作表索引-->
+  <startPoint X="1" Y="-1" />     <!--图像插入的起始单元格坐标，默认从第一列，最后一行+2开始插入图像-->
+  <graphsWidth>10</graphsWidth>  <!--每张图像占用的列数-->
+  <graphsHeight>22</graphsHeight><!--每张图像占用的行数-->
+  <intervalWithMulti>2</intervalWithMulti>    <!--存在多张图像时，图像与图像之间的间隔行-->
+</excelDataExtractTemplate>
